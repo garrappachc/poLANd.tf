@@ -9,7 +9,21 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
-
+.para {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 0 12px;
+}
+.para-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.para-wrapper > * {
+  flex-basis: 100%;
+}
 body {
   font-family: Staatliches, sans-serif;
   color: #fff;
