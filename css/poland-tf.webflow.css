@@ -9,6 +9,10 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+a.gallery-link {
+  font-family: Staatliches, sans-serif;
+}
+
 .para {
   font-family: 'Exo 2', sans-serif;
   font-size: 20px;
