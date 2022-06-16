@@ -15,6 +15,17 @@ a.gallery-link {
 p > a {
   text-decoration: underline !important;
 }
+.credits {
+  text-align: center;
+  padding: 8px 0;
+}
+.credits span {
+  font-family: 'Exo 2', sans-serif;
+}
+.credits span:not(:last-child) {
+  font-family: 'Exo 2', sans-serif;
+  margin-right: 12px;
+}
 .footer-center {
   padding-top: 20px;
 }
